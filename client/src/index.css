@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ------Personal modification-------- */
+/* ==remove default text open main menu after toggle icon */
+.sr-only{
+    display: none;
+}
