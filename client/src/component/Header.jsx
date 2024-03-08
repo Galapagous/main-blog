@@ -17,7 +17,8 @@ export default function Header() {
     <div>
       <Navbar className='border-b-2 mx-auto relative'>
         <Link to='/' className='self-center whitespace-nowrap text-sm sm:text-lg font-semibold'>
-          <span className='bg-gradient-to-r from-[#454e80] via-[#7b5b9e] to-[#fdabdc] py-1 px-3 rounded-lg text-white'>Ma </span> Blog</Link>
+          <span className='bg-gradient-to-r from-[#454e80] via-[#7b5b9e] to-[#fdabdc] py-1 px-3 rounded-lg text-white'>Ma </span> Blog
+          </Link>
         <form>
           <TextInput type='text' placeholder='Search ...' className='hidden lg:flex lg:items-center justify-center' rightIcon={AiOutlineSearch}/>
           <Button className='w-12 h-10 lg:hidden bg-slate-900' pill>
